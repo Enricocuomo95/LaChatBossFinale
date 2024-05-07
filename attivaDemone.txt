@@ -1,0 +1,1 @@
+PS C:\Users\Utente\Desktop\mongodb\bin> .\mongod.exe

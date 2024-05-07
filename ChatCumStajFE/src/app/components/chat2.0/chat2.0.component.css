@@ -1,0 +1,130 @@
+html, body {
+    margin:0;
+    padding:0;
+  }
+  
+  .comic {
+    display:flex;
+    flex-wrap:wrap;
+    font-family:'Comic Sans', cursive;
+    padding:1vmin;
+  }
+  
+  .text {
+    background-color:#fff;
+    border:solid 2px #000;
+    margin:0;
+    padding:3px 10px;
+  }
+  
+  .speech {
+    background-color:#fff;
+    border:solid 2px #000;
+    border-radius:12px;
+    display:inline-block;
+    margin:.5em;
+    padding:.5em 1em;
+    position:relative;
+  }
+  
+  .speech:before {
+    border:solid 12px transparent;
+    border-left:solid 12px #000;
+    border-top:solid 12px #000;
+    bottom:-24px;
+    content:"";
+    height:0;
+    left:24px;
+    position:absolute;
+    transform:skew(-15deg);
+    width:0;
+  }
+  
+  .speech:after {
+    border:solid 10px transparent;
+    border-left:solid 10px #fff;
+    border-top:solid 10px #fff;
+    bottom:-19px;
+    content:"";
+    height:0;
+    left:27px;
+    position:absolute;
+    transform:skew(-15deg);
+    width:0;
+  }
+
+  .speech-right {
+    background-color:#fff;
+    border:solid 2px #000;
+    border-radius:12px;
+    display:inline-block;
+    margin:.5em;
+    padding:.5em 1em;
+    position:relative;
+}
+
+.speech-right:before {
+    border:solid 12px transparent;
+    border-right:solid 12px #000; /* Cambiato da border-left a border-right */
+    border-top:solid 12px #000;
+    bottom:-24px;
+    content:"";
+    height:0;
+    right:24px; /* Cambiato da right a left */
+    position:absolute;
+    transform:skew(15deg); /* Cambiato segno da -15deg a 15deg */
+    width:0;
+}
+
+.speech-right:after {
+    border:solid 10px transparent;
+    border-right:solid 10px #fff; /* Cambiato da border-left a border-right */
+    border-top:solid 10px #fff;
+    bottom:-19px;
+    content:"";
+    height:0;
+    right:27px; /* Cambiato da right a left */
+    position:absolute;
+    transform:skew(15deg); /* Cambiato segno da -15deg a 15deg */
+    width:0;
+}
+
+.FixedHeightContainer
+{
+  float:right;
+  height: 250px;
+  width:250px; 
+  padding:3px; 
+    background:blue;
+}
+.Content
+{
+  height:224px;
+   overflow:auto;
+    background:#fff;
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}

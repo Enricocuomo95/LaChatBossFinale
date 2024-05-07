@@ -1,0 +1,170 @@
+[
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "getMessagesForStanzaCode",
+    "RelativePath": "Home/{stanzaCode}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanzaCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChatCumStaj.DTO.MessaggioDto, ChatCumStaj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "getStanze",
+    "RelativePath": "Home/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChatCumStaj.DTO.StanzaDto, ChatCumStaj, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "CreaMessaggio",
+    "RelativePath": "Home/creaMessaggio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messaggio",
+        "Type": "ChatCumStaj.DTO.MessaggioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "CreaStanza",
+    "RelativePath": "Home/creaStanza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanza",
+        "Type": "ChatCumStaj.DTO.StanzaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "InserisciUtente",
+    "RelativePath": "Home/inserisciUtente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utenteDto",
+        "Type": "ChatCumStaj.Models.Utente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "loggaUtente",
+    "RelativePath": "Home/loggaUtente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utenteDto",
+        "Type": "ChatCumStaj.Models.Utente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "getToken",
+    "RelativePath": "Home/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "utenteDto",
+        "Type": "ChatCumStaj.Models.Utente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "UpdateStanza",
+    "RelativePath": "Home/updateStanza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stanza",
+        "Type": "ChatCumStaj.DTO.StanzaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatCumStaj.Controllers.HomeController",
+    "Method": "getUtenti",
+    "RelativePath": "Home/utenti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

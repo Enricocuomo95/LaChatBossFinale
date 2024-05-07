@@ -1,0 +1,263 @@
+[{
+  "_id": {
+    "$oid": "66366d93d076b93a4f2d38ee"
+  },
+  "StanzaCode": "string",
+  "Title": "string",
+  "Descrizione": "string",
+  "Membri": [
+    "string",
+    "pippo",
+    "MatteoBangBang",
+    "enricoCuomo",
+    "giovanniPace"
+  ],
+  "MessageRIF": [
+    {
+      "$oid": "6638b89dbf74e286ac8ebcda"
+    },
+    {
+      "$oid": "6638b8f3bf74e286ac8ebcdb"
+    },
+    {
+      "$oid": "6638b8f6bf74e286ac8ebcdc"
+    },
+    {
+      "$oid": "6638bafbbf74e286ac8ebcdd"
+    },
+    {
+      "$oid": "6638bb88bf74e286ac8ebcde"
+    },
+    {
+      "$oid": "6638bc46bf74e286ac8ebcdf"
+    },
+    {
+      "$oid": "6638bc6fbf74e286ac8ebce0"
+    },
+    {
+      "$oid": "6638bc9abf74e286ac8ebce1"
+    },
+    {
+      "$oid": "6638bcb0bf74e286ac8ebce2"
+    },
+    {
+      "$oid": "6638bcbdbf74e286ac8ebce3"
+    },
+    {
+      "$oid": "6638bd04bf74e286ac8ebce4"
+    },
+    {
+      "$oid": "6638bd74bf74e286ac8ebce5"
+    },
+    {
+      "$oid": "6638bf36bf74e286ac8ebce6"
+    },
+    {
+      "$oid": "6638bf63bf74e286ac8ebce7"
+    },
+    {
+      "$oid": "6638bfd1bf74e286ac8ebce8"
+    },
+    {
+      "$oid": "6638c04abf74e286ac8ebce9"
+    },
+    {
+      "$oid": "6638c063bf74e286ac8ebcea"
+    },
+    {
+      "$oid": "6638c0a0bf74e286ac8ebceb"
+    },
+    {
+      "$oid": "6638c0d4bf74e286ac8ebcec"
+    },
+    {
+      "$oid": "6638c102bf74e286ac8ebced"
+    },
+    {
+      "$oid": "6638c1b0bf74e286ac8ebcee"
+    },
+    {
+      "$oid": "6638c1bebf74e286ac8ebcef"
+    },
+    {
+      "$oid": "6638c364bf74e286ac8ebcf0"
+    },
+    {
+      "$oid": "6638c37ebf74e286ac8ebcf1"
+    },
+    {
+      "$oid": "6638c3aebf74e286ac8ebcf2"
+    },
+    {
+      "$oid": "6638c3d9bf74e286ac8ebcf3"
+    },
+    {
+      "$oid": "6638c52abf74e286ac8ebcf4"
+    },
+    {
+      "$oid": "6638c5e6bf74e286ac8ebcf5"
+    },
+    {
+      "$oid": "6638e0aab07c7833d88eb361"
+    },
+    {
+      "$oid": "6638f5eaca7293115fb2b247"
+    },
+    {
+      "$oid": "66391ce5836dcf7f7c8c258a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66378dcb72689b47713696cf"
+  },
+  "StanzaCode": "codice",
+  "Title": "membribellabellagente",
+  "Descrizione": "string",
+  "Membri": [
+    "string"
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "6637910072689b47713696d0"
+  },
+  "StanzaCode": "gruppoPerPochi",
+  "Title": "gruppoPerPochi",
+  "Descrizione": "",
+  "Membri": [
+    ""
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "663798fd075366d0a0fe412a"
+  },
+  "StanzaCode": "popopoooopopooop",
+  "Title": "popopoooopopooop",
+  "Descrizione": "",
+  "Membri": [
+    ""
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "663799c7075366d0a0fe412b"
+  },
+  "StanzaCode": "popopoooopopooop",
+  "Title": "popopoooopopooop",
+  "Descrizione": "",
+  "Membri": [
+    ""
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "66379e4d075366d0a0fe412c"
+  },
+  "StanzaCode": "tizio96\"bella",
+  "Title": "bella",
+  "Descrizione": "",
+  "Membri": [
+    "tizio96"
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "6637b1240e4e61504f742c2d"
+  },
+  "StanzaCode": "tizio96gruppoPerPochi",
+  "Title": "gruppoPerPochi",
+  "Descrizione": "questo gruppo spacca il livello\n",
+  "Membri": [
+    "tizio96"
+  ],
+  "MessageRIF": [
+    {
+      "$oid": "6638b1c2dd4dccde83244a39"
+    },
+    {
+      "$oid": "6638b2e1d2095009c2bf2af6"
+    },
+    {
+      "$oid": "6638b40bbf74e286ac8ebcd9"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6637b5430e4e61504f742c2e"
+  },
+  "StanzaCode": "tizio96ahhhh che bella giornata è questa",
+  "Title": "ahhhh che bella giornata è questa",
+  "Descrizione": "guarda mamma come mi divrto!",
+  "Membri": [
+    "tizio96"
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "6637c35fc52c375d3097cc64"
+  },
+  "StanzaCode": "pippopippo",
+  "Title": "pippo",
+  "Descrizione": "che fantasia",
+  "Membri": [
+    "pippo",
+    "",
+    "enricoCuomo"
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "663923c4836dcf7f7c8c258b"
+  },
+  "StanzaCode": "ponziobellagentebelloilposto",
+  "Title": "bellagentebelloilposto",
+  "Descrizione": "",
+  "Membri": [
+    "ponzio",
+    "enricoCuomo",
+    "MatteoBangBang",
+    "giovanniPace"
+  ],
+  "MessageRIF": []
+},
+{
+  "_id": {
+    "$oid": "66392bc8f03f7c19e049d4ca"
+  },
+  "StanzaCode": "tipodajeconlachat",
+  "Title": "dajeconlachat",
+  "Descrizione": "",
+  "Membri": [
+    "tipo",
+    "MatteoBangBang",
+    "enricoCuomo"
+  ],
+  "MessageRIF": [
+    {
+      "$oid": "66392feef03f7c19e049d4cb"
+    },
+    {
+      "$oid": "66393024f03f7c19e049d4cc"
+    },
+    {
+      "$oid": "663930eff03f7c19e049d4cd"
+    },
+    {
+      "$oid": "66393153f03f7c19e049d4ce"
+    },
+    {
+      "$oid": "6639315ef03f7c19e049d4cf"
+    }
+  ]
+}]
